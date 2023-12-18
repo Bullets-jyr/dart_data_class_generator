@@ -60,6 +60,7 @@ class UserDetailsPage extends StatelessWidget {
   }
 }
 
+// Address
 class ShowAddress extends StatelessWidget {
   final Address address;
 
@@ -93,6 +94,7 @@ class ShowAddress extends StatelessWidget {
   }
 }
 
+// Company
 class ShowCompany extends StatelessWidget {
   final Company company;
 

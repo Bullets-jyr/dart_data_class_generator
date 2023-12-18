@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class CustomButton extends StatelessWidget {
   final String title;
   final Widget child;
+
   const CustomButton({
     Key? key,
     required this.title,

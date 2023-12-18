@@ -27,6 +27,19 @@ class Person extends Equatable {
     );
   }
 
+  // @override
+  // bool operator ==(Object other) {
+  //   if (identical(this, other)) return true;
+  //
+  //   return other is Person &&
+  //     other.id == id &&
+  //     other.name == name &&
+  //     other.email == email;
+  // }
+
+  // @override
+  // int get hashCode => id.hashCode ^ name.hashCode ^ email.hashCode;
+
   @override
   List<Object> get props => [id, name, email];
 }

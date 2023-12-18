@@ -11,6 +11,7 @@ class User extends Equatable {
   final String phone;
   final String website;
   final Company company;
+
   const User({
     required this.id,
     required this.name,
@@ -100,6 +101,7 @@ class Address extends Equatable {
   final String city;
   final String zipcode;
   final Geo geo;
+
   const Address({
     required this.street,
     required this.suite,
@@ -169,6 +171,7 @@ class Address extends Equatable {
 class Geo extends Equatable {
   final String lat;
   final String lng;
+
   const Geo({
     required this.lat,
     required this.lng,
@@ -213,6 +216,7 @@ class Company extends Equatable {
   final String name;
   final String catchPhrase;
   final String bs;
+
   const Company({
     required this.name,
     required this.catchPhrase,

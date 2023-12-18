@@ -10,6 +10,7 @@ Future<List<User>> fetchUsers() async {
     final List userList = response.data;
     print(userList[0]);
 
+    // Collection For Loop
     final users = [for (final user in userList) User.fromMap(user)];
 
     print(users[0]);
